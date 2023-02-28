@@ -1,0 +1,17 @@
+file = open('page.html','w+')
+file.write('<!DOCTYPE html>\n')
+file.write('<html>\n')
+file.write('   <head>\n')
+file.write('    <meta charset="UTF-8">\n')
+file.write('     <title>My Page</title>\n')
+file.write('   </head>\n')
+file.write('   <body>\n')
+
+file.write('        kosmk  ala kosm pytho \n')
+file.write('    <img src="file:///C:/Users/Enter%20Store/Downloads/48978;;;;;;97.png" alt="ES-Seyam">    \n')
+file.write('    <audio controls source src="file:///C:/Users/Enter%20Store/Downloads/y2mate.com%20-%20%D9%85%D9%8A%D9%85%D8%B2%20%D8%A8%D9%87%D8%AC%D8%AA%20%D8%B5%D8%A7%D8%A8%D8%B1%20%D9%82%D9%88%D9%85%20%D9%8A%D8%A7%20%D9%85%D8%B5%D8%B1%D9%8A%20%D9%83%D8%A7%D9%85%D9%84%D9%87.mp3"> \n')
+file.write('   </body>\n')
+file.write('</html>\n')
+file.close()
+import os
+os.system('page.html')
